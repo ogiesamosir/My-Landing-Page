@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/julius-samosir/precache-manifest.575217b313a5890eb08f2561e18b85f6.js"
+  "/My-Landing-Page/precache-manifest.647ae6d9f81c253eeeb5260cf0c628ea.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/julius-samosir/index.html", {
+workbox.routing.registerNavigationRoute("/My-Landing-Page/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
